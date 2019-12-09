@@ -10,10 +10,7 @@ public class CustomerTest {
         System.out.println(customerLee.showCustomerInfo());
          */
 
-        VIPCustomer customerKim = new VIPCustomer();
-
-        customerKim.setCustomerName("김유신");
-        customerKim.setCustomerID(10020);
+        VIPCustomer customerKim = new VIPCustomer(10020, "김유신");
         customerKim.bonusPoint = 10000;
         System.out.println(customerKim.showCustomerInfo());
     }

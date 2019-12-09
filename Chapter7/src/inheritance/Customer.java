@@ -9,11 +9,23 @@ public class Customer {
     double bonusRatio;
 
     //기본 생성자.
+    /*
     public Customer() {
         customerGrade = "SILVER";
         bonusRatio = 0.01;
 
         System.out.println("Customer() 생성자 호출");
+    }
+    */
+
+    public Customer(int customerID, String customerName) {
+        customerGrade = "SILVER";
+        bonusRatio = 0.01;
+
+        this.customerID = customerID;
+        this.customerName = customerName;
+
+        System.out.println("Customer(int, String) 생성자 호출");
     }
 
     //얼마를 지불해야 하는지 계산.
