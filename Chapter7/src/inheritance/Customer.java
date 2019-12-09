@@ -12,6 +12,8 @@ public class Customer {
     public Customer() {
         customerGrade = "SILVER";
         bonusRatio = 0.01;
+
+        System.out.println("Customer() 생성자 호출");
     }
 
     //얼마를 지불해야 하는지 계산.
