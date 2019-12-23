@@ -25,7 +25,7 @@ public class Customer {
         this.customerID = customerID;
         this.customerName = customerName;
 
-        System.out.println("Customer(int, String) 생성자 호출");
+        //System.out.println("Customer(int, String) 생성자 호출");
     }
 
     //얼마를 지불해야 하는지 계산.
