@@ -16,7 +16,11 @@ public class CalcTeste {
         System.out.println(calc.substract(n1, n2));
         System.out.println(calc.times(n1, n2));
         System.out.println(calc.divide(n1, n2));
-        calc.showInfo();
+        calc.description();
+        //인스턴스 변수로 가져다 쓰는게 아닌 인터페이스 타입으로 직접 써서 사용한다.
+        int[] arr = {1,2,3,4,5};
+        int sum = Calc.total(arr);
+        System.out.println(sum);
 
         /*
         하나의 인터페이스를 여러 클래스가 구현함.

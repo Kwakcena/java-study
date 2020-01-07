@@ -13,6 +13,14 @@ public class CompleteCalc extends Calculater {
         else return num1 / num2;
     }
 
+    //디폴트 메서드는 재정의하여 클래스의 메서드로 불리게 할 수 있습니다.
+    /*
+    @Override
+    public void description() {
+        System.out.println("재정의 한 description");
+    }
+     */
+
     public void showInfo() {
         System.out.println("모두 구현하였습니다.");
     }
